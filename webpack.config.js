@@ -23,26 +23,14 @@ module.exports = {
     // copy-webpack-plugin
     // https://github.com/webpack-contrib/copy-webpack-plugin
     //////
-    // new CopyWebpackPlugin([{
-    //   from: '/path/to/src',
-    //   to: '/path/to/dest'
-    // }]),
-    new CopyWebpackPlugin(
-      [
-          {
-              from: './node_modules/semantic-ui-react',
-              to: './semantic-ui-react'
-          },
-          {
-              from: './node_modules/semantic-ui-css',
-              to: './semantic-ui-css'
-          },
-          {
-              from: './node_modules/jquery/dist/jquery.min.js',
-              to: 'jquery.min.js'
-          }
-      ]
-    ),
+    // new CopyWebpackPlugin(
+    //   [
+    //       {
+    //           from: './node_modules/semantic-ui-react',
+    //           to: './semantic-ui-react'
+    //       }
+    //   ]
+    // ),
 
     new webpack.ProvidePlugin({
         $: 'jquery',
@@ -58,8 +46,8 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
 
     // to listen 0.0.0.0
-    //   host: '0.0.0.0',
-    //   disableHostCheck: true,
+       host: '0.0.0.0',
+       disableHostCheck: true,
     port: 8000,
     inline: true,
 

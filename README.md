@@ -1,9 +1,9 @@
-# sample_goosetunetv-table
+# react-sample-material-ui
 
 ## setup
 
 ```
-npm install
+yarn install
 node_modules/.bin/webpack
 ```
 

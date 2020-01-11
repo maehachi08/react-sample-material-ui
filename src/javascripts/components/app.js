@@ -7,6 +7,9 @@ import {
 } from 'react-router-dom'
 
 import { HeaderAppBar } from './HeaderAppBar'
+import { YoutubeTabMenu } from './YoutubeTabMenu'
+
+import Container from '@material-ui/core/Container';
 
 const App = () => (
   <Router>
@@ -27,7 +30,7 @@ const App = () => (
 
 const Youtubes = () => (
   <div>
-    youtube
+      <YoutubeTabMenu />
   </div>
 )
 const Ustreams = () => (
