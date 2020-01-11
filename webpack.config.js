@@ -58,8 +58,8 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
 
     // to listen 0.0.0.0
-    //   host: '0.0.0.0',
-    //   disableHostCheck: true,
+       host: '0.0.0.0',
+       disableHostCheck: true,
     port: 8000,
     inline: true,
 
