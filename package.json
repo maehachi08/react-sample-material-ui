@@ -19,7 +19,7 @@
     "date-fns": "^2.0.0-beta.5",
     "imagesloaded": "^4.1.4",
     "infinite-scroll": "^3.0.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-bridget": "^2.0.1",
     "jquery-ui": "^1.12.1",
     "jquery.mhead": "^1.0.1",
