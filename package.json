@@ -21,7 +21,7 @@
     "infinite-scroll": "^3.0.4",
     "jquery": "^3.4.1",
     "jquery-bridget": "^2.0.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "jquery.mhead": "^1.0.1",
     "jquery.mmenu": "^7.0.2",
     "luxon": "^1.21.3",
