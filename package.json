@@ -24,7 +24,7 @@
     "jquery-ui": "^1.12.1",
     "jquery.mhead": "^1.0.1",
     "jquery.mmenu": "^7.0.2",
-    "luxon": "^1.21.3",
+    "luxon": "^2.5.2",
     "magnific-popup": "^1.1.0",
     "masonry-layout": "^4.2.1",
     "moment": "^2.24.0",
